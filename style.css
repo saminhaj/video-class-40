@@ -1,0 +1,385 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    width: 100%;
+}
+/*header*/
+
+
+.jon-header span {
+    background: #3498db;
+    color: #fff;
+    width: 42px;
+    display: block;
+    height: 44px;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    border-radius: 13px;
+    margin-right: 18px;
+    position: relative;
+    top: -3px;
+}
+.jon-header .navbar-brand {
+    font-size: 25px;
+}
+.jon-menu .nav-link {
+    padding-left: 36px !important;
+    padding-right: 13px !important;
+    position: relative;
+    top: -3px;
+    left: 50px;
+}
+/*banner*/
+
+.banner{
+    background: url(https://i.ibb.co/FxnTMn1/mbr-10.jpg)no-repeat center center;
+    background-size: cover;
+    padding: 170px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+/*number*/
+.number-section-text .h1 {
+    font-size: 50px;
+}
+/*health*/
+.health{
+    background: #f7f9ff;
+}
+.health-text p {
+    font-size: 18px;
+    line-height: 31px;
+}
+.health-text h2 {
+    font-size: 39px;
+    font-weight: 500;
+}
+.health-text {
+    padding-top: 116px;
+}
+.header-btn {
+	width: 209px;
+}
+.jon-header strong{
+    font-weight: 400;
+}
+/*application*/
+.application-text .text-muted {
+    font-size: 19px;
+}
+.application-text .mb-4 {
+    font-size: 38px;
+}
+.apl-box{
+    height: 250px;
+    box-shadow: 2px 2px 10px 0 #bdc3c7;
+    transition: .5s;
+}
+.apl-pic {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 8px 0 0 8px;
+}
+.apl-box:hover{
+    box-shadow: 5px 5px 30px 0 #bdc3c7;
+}
+.apl-pic img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.apl-text {
+    width: 60%;
+    padding: 16px;
+     padding-top: 16px;
+    padding-top: 38px;
+}
+.apl-text h2{
+
+}
+.apl-text p{
+
+}
+.problem-2 {
+    padding-left: 20px;
+}
+.problem-3 {
+    padding-left: 74px;
+}
+.problem-3 img {
+    position: relative;
+    left: -78px;
+}
+.problem-2 img {
+    position: relative;
+    left: -69px;
+}
+.problem-5 img {
+    position: relative;
+    left: -84px;
+}
+/*lool*/
+
+.look{
+
+}
+.look-box{
+
+}
+.look-box a{
+    display: block;
+    position: relative;
+}
+.look-box a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(29, 5, 247,.6);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.look-box:hover a::after{
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 5px 5px 30px 0 #bdc3c7;
+}
+.look-text h2 {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+/*todat*/
+.today-box {
+    box-shadow: 4px 5px 30px 0 #bdc3c7;
+    padding-bottom: 30px;
+}
+.today-box h2 {
+    font-size: 37px;
+    padding-left: 58px;
+    padding-bottom: 40px
+}
+.today-box p {
+    padding-left: 66px;
+    font-size: 18px;
+}
+.primary{
+
+}
+.primary ul{
+    padding-bottom: 30px;
+}
+.primary ul li {
+    list-style: none;
+    padding-left: 33px;
+    font-size: 19px;
+    line-height: 50px;
+}
+.primary ul li span {
+    color: #3498db;
+    width: 31px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.today-btn{
+
+}
+/*feedback*/
+.feedback-text span {
+    width: 80px;
+    display: inline-block;
+    font-size: 62px;
+    opacity: .1;
+}
+.feedback-text .text-muted {
+    font-size: 21px;
+}
+.pic-foot img {
+    width: 70px;
+    float: left;
+}
+.pic-foot {
+    width: 200px;
+    margin: auto;
+}
+/*team*/
+.team{
+    background: #f9f7ff;
+}
+.team h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+.team-p {
+    font-size: 19px;
+}
+.team-box {
+    padding-bottom: 30px;
+}
+.team-box-text {
+    box-shadow: 4px 4px 30px 0 #bdc3c7;
+    padding-bottom: 46px;
+}
+.team-box-text p {
+    padding-left: 30px;
+}
+.team-box-text h4 {
+    padding-top: 87px;
+    padding-left: 34px;
+}
+.team-box-text{
+     position: relative;
+}
+.team-box-text img {
+    position: absolute;
+    top: -38px;
+    left: 17px;
+    width: 104px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px 0 #bdc3c7;
+}
+.team-box-text {
+    box-shadow: 4px 4px 30px 0 #bdc3c7;
+}
+.team-box-text a {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: .5s;
+   
+}
+.team-box-text a:hover{
+    background: #535c68;
+    color: #fff;
+}
+.contact-text .text-muted {
+    font-size: 22px;
+}
+.contact-text h1 {
+    font-size: 39px;
+    font-weight: 500;
+}
+/*send*/
+.send{
+
+}
+.send-text {
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 10px 0 #bdc3c7;
+    padding: 40px;
+}
+.send-form{
+  
+
+}
+.form-sect{
+    width: 48% !important;
+    
+}
+.send-btn .btn{
+    transition: .5s;
+}
+.send-btn .btn:hover{
+    background: #fff;
+    color: blue;
+        box-shadow: 2px 2px 8px  #0498fc;
+    
+
+}
+.f-send{
+    box-shadow: 4px 4px 30px 0 #bdc3c7;
+}
+.watch-btn-s{
+    transition: .5s;
+    box-shadow: 4px 4px 30px 0 #bdc3c7;
+
+}
+.watch-btn-s:hover{
+    background: #000;
+    color: #fff;
+}
+.photo-s-img{
+    width: 500px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/*responsive css*/
+/*responsive css*/
+/*responsive css*/
+
+
+@media (max-width:1200px) {
+    .apl-pic {
+        width: 36%;
+    }
+    .apl-text {
+        width: 64%;
+    }
+    .problem-5 img {
+        position: relative;
+        left: -76px;
+    }
+    .health-text {
+        padding-top: 0px;
+    }
+}
+@media (max-width:992px) {
+    .problem-3 img {
+        position: relative;
+        left: -76px;
+    }
+    .form-text {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width:768px) {
+    .problem-5 img {
+        position: relative;
+        left: -56px;
+    }
+    .problem-3 img {
+        position: relative;
+        left: -74px;
+    }
+    .apl-pic {
+        width: 33%;
+    }
+    .apl-text {
+        width: 67%;
+    }
+}
+
+@media (max-width:450px) {
+    .problem-3 img {
+        position: relative;
+        left: -74px;
+    }
+}
